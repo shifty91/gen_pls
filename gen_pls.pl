@@ -35,7 +35,7 @@ options:
     -r, --recursive: works recursivley
     -v, --verbose  : enable more output
 EOF
-    return;
+    exit -1;
 }
 
 sub get_args
