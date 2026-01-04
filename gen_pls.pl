@@ -23,7 +23,7 @@ use Getopt::Long;
 
 my (@dirs, $recursive, $verbose);
 
-my @extensions = ('.ogg', '.mp3', '.mp4', '.mkv', '.avi');
+my @extensions = ('.ogg', '.mp3', '.mp4', '.mkv', '.avi', '.webm');
 
 sub print_usage_and_exit
 {
